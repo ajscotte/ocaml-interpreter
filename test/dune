@@ -1,0 +1,3 @@
+(executable
+ (name main)
+ (libraries Jocalf ounit2 qcheck))

@@ -1,0 +1,11 @@
+(library
+ (name jocalf)
+ (public_name Jocalf)
+ (libraries str)
+ (instrumentation
+  (backend bisect_ppx)))
+
+(menhir
+ (modules parser))
+
+(ocamllex lexer)
